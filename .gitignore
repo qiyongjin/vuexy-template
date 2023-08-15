@@ -32,4 +32,4 @@ dist-ssr
 .zip
 
 # iconify dist files
-# src/@iconify/*.js
+src/@iconify/*.js
