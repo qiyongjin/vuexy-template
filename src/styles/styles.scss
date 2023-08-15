@@ -1,0 +1,15 @@
+// Write your overrides
+.alert {
+  position: fixed;
+  z-index: 666;
+  block-size: 1.28rem;
+  inline-size: 80%;
+  inset-block-start: -80px;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  transition: all 0.6s;
+}
+
+.alert.popup_display {
+  inset-block-start: 20px;
+}
